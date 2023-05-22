@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:padding="10dp"
+    tools:context=".Book">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="175dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="96dp"
+        android:backgroundTint="#000"
+        android:text="إستعراض الحجز"
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="212dp"
+        android:layout_margin="8dp"
+        android:layout_marginTop="16dp"
+        android:padding="10dp"
+        android:text=" الان يمكنك إدارة الحجز الخاص بك من خلال الموقع الاكتروني؛ حيث يمكنك تغيير رحلتك؛ اختيار المقعد المفضل لديك؛ وايضاً اختيار الوجبة المناسبة؛ كما يمكنك ان توفر وقتك الثمين في المطار من خلال شراء الوزن الزائد من الأمتعة عبر موقعنا الاكتروني "
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="8dp"
+        android:text="رقم الحجز:"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.973"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/inputNum"
+        android:layout_width="295dp"
+        android:layout_height="51dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="#838080"
+        android:ems="10"
+        android:inputType="number"
+        android:shadowColor="#252525"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="262dp"
+        android:layout_height="51dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="12dp"
+        android:background="#1D3098"
+
+        android:shadowColor="#A5A1A1"
+        android:text="عرض"
+        android:textColor="#fff"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="@+id/inputNum"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/inputNum"
+        app:layout_constraintTop_toBottomOf="@+id/inputNum" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

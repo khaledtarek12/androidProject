@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:id="@+id/booking"
+        android:title="احجز"
+        app:showAsAction="withText"/>
+    <item
+        android:id="@+id/cancel"
+        android:title="الغاء الحجز"
+        app:showAsAction="withText"/>
+    <item
+        android:id="@+id/show"
+        android:title="استعراض الحجز"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/login"
+        android:title="دخول"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/contact"
+        android:title="اتصل بنا"
+        app:showAsAction="withText"/>
+</menu>

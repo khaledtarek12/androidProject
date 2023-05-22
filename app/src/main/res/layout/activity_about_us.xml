@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Book">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="2000dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/egyptair_logo"
+        android:alpha=".8"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/about_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="عن مصر للطيران"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/about_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/about_title"
+        android:layout_marginTop="-7dp"
+        android:padding="20dp"
+        android:text="مصر للطيران هي شركة طيران مصرية تأسست عام 1932 ، تخدم مصر للطيران أكثر من 70 وجهة دولية ومحلية في 4 قارات. تشمل خدمات مصر للطيران الرحلات الجوية المباشرة وغير المباشرة ، وخدمة الواي فاي المجانية على متن الرحلات ، والطعام والشراب ، ومنفذ ترفيهي ومجلة المسافر. "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/about_description2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/about_description"
+        android:layout_marginTop="15dp"
+        android:padding="20dp"
+        android:text="
+تحالف ستار عبارة عن الشبكة العالمية الرائدة التي لشركات الطيران ، من حيث رحلات يومية ، والوجهات والدول التى يتم السفر إليها
+    ، وعدد شركات الطيران الأعضاء. وقد تأسس هذا التحالف في عام 1997 بوصفه أول تحالف
+    عالمي حقيقي لشركات الطيران يوفر للعملاء في جميع أنحاء العالم تجربة سفر سلسة. وتقدم شبكة تحالف ستار خدمة حقيقية من بداية الرحلة حتى نهايتها
+    إلى للمسافرين الدائمين لضمان تجربة سفر تتسم بالراحة والسلاسة والكفاءة . أما الفوائد فتتمثل فى نقاط الاتصال الأسرع والأكثر سلاسة
+    ، وبرامج المسافر الدائم ، ورفع درجة الخدمة والجوائز والصالات والاستراحات ، والمكافآت لأصحاب النظم الذهبية والفضية"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/visit_website_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/about_description2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="140dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="زيارة الموقع"
+        />
+
+</RelativeLayout>
